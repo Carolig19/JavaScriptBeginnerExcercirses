@@ -1,16 +1,17 @@
 function getColor(selection) {
+	let colorname = ["red", "blue", "green"];
 	
 	switch (selection) {
 		case 1:
-			color = 'rojo';
+			colorname = 'red';
 			return "true";
 			break;
 		case 2:
-			color = 'azul';
+			colorname = 'blue';
 			return "true";
 			break;
 		case 3:
-			color = 'verde';
+			colorname = 'green';
 			return "true";
 			break;
 
